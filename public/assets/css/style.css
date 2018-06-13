@@ -1,6 +1,33 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Nunito');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Nunito:400,400i|Pacifico');
 body {
     font-family: 'Nunito', sans-serif;
+    font-style: normal;
+}
+
+
+
+.jumbotron {
+    background: #fff;
+}
+
+.jello-brand {
+    font-family: 'Pacifico', sans-serif;
+    color: #ff5252;
+}
+
+.found-brand {
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    letter-spacing: 4px;
+    color: #ff5252;
+}
+
+.col {
+    border: 1px solid black;
+}
+
+.found-brand {
+
 }
 
 .fa-wrench {
