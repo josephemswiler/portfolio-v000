@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Nunito:400,400i|Pacifico');
+:root {
+    --accent: #33d9b2;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
 }
 
+a {
+    color: #2C3A47
+}
 
+a:hover,
+.btn-secondary:hover {
+    text-decoration: none;
+    color: var(--accent);
+}
 
 .jumbotron {
     background: #fff;
@@ -12,22 +24,16 @@ body {
 
 .jello-brand {
     font-family: 'Pacifico', sans-serif;
-    color: #ff5252;
 }
 
 .found-brand {
     font-family: 'Nunito', sans-serif;
     font-style: italic;
     letter-spacing: 4px;
-    color: #ff5252;
 }
 
-.col {
-    border: 1px solid black;
-}
-
-.found-brand {
-
+.btn-secondary {
+    border-radius: 30px;
 }
 
 .fa-wrench {
@@ -44,7 +50,7 @@ body {
         color: #fff;
     }
     50% {
-        color: #ff5252; 
+        color: var(--accent);
     }
     100% {
         transform: rotate(360deg);
