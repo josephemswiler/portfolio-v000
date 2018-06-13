@@ -4,6 +4,6 @@ const app = express()
 
 app.use(express.static('public'))
 
-require('./controllers/porfolio-controller.js')(app)
+// require('./controllers/porfolio-controller.js')(app)
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`))

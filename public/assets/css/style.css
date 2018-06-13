@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Nunito');
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.fa-wrench {
+    animation: fa-wrench-spin infinite 10s linear;
+}
+
+.title-text {
+    font-family: 'Cabin Sketch', sans-serif;
+}
+
+@keyframes fa-wrench-spin {
+    0% {
+        transform: rotate(0deg);
+        color: #fff;
+    }
+    50% {
+        color: #ff5252; 
+    }
+    100% {
+        transform: rotate(360deg);
+        color: #fff;
+    }
+}
